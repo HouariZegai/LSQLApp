@@ -1,0 +1,46 @@
+/* Start Tp Exercise */
+
+.tpLabel {
+    -fx-font-size: 18px
+}
+
+#tpQuestionField {
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-border-radius: 5px;
+    overflow-wrap: break-word
+}
+
+#answerArea {
+    -fx-border-width: 1px 1px 0 1px;
+    -fx-border-color: #000;
+    -fx-border-radius: 5px;
+    -fx-font-size: 18px
+}
+
+#tpHintField {
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-border-radius: 5px   
+}
+
+
+.textArea {
+    -fx-font-size: 16px;
+}
+
+.hintArea {
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+}
+
+.cursorHand {
+    -fx-cursor: hand
+}
+
+#effectLabel {
+    -fx-font: 70px Tahoma;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, #2196f3 50%)
+}
+
+/* End Tp Exercise */

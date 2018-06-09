@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="690.0" prefWidth="1192.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" layoutX="23.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="60.0" prefWidth="700.0" spacing="20.0">
+         <children>
+            <Label prefHeight="50.0" prefWidth="125.0" styleClass="title-header" text="Grades">
+               <font>
+                  <Font name="Tahoma" size="34.0" />
+               </font>
+            </Label>
+            <Label id="errorLabel" fx:id="errorLabel" prefHeight="50.0" prefWidth="420.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="326.0" layoutY="216.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ImageView fitHeight="175.0" fitWidth="225.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Preloader.gif" />
+               </image>
+            </ImageView>
+            <Label id="commingLabel" prefHeight="175.0" prefWidth="298.0" text="Coming Soon !" textFill="#2196f3" />
+         </children>
+      </HBox>
+   </children>
+   <stylesheets>
+      <URL value="@../css/main.css" />
+      <URL value="@../css/grades.css" />
+   </stylesheets>
+</AnchorPane>

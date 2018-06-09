@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.emojione.EmojiOneView?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.StackedBarChart?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="585.0" prefWidth="1021.0" stylesheets="@../../css/main.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.houarizegai.learnsql.java.controllers.form.ViewStatisticQuestionController">
+   <children>
+      <HBox layoutX="16.0" layoutY="14.0" prefHeight="41.0" prefWidth="741.0" spacing="30.0" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <JFXButton fx:id="toggleBtnView" prefHeight="41.0" prefWidth="146.0" text="View Total Solved %" />
+         </children>
+      </HBox>
+      <AnchorPane id="AnchorPane" fx:id="barChartPane" layoutX="13.0" layoutY="68.0" prefHeight="518.0" prefWidth="990.0" visible="false" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="68.0">
+         <children>
+            <BarChart fx:id="percentageSolvedBarChart" layoutX="14.0" layoutY="3.0" prefHeight="476.0" prefWidth="983.0" title="Percentage solved question">
+              <xAxis>
+                <CategoryAxis label="Question Number" side="BOTTOM" fx:id="xAxis" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="yAxis" autoRanging="false" label="Percentage Solved" prefHeight="403.0" prefWidth="43.0" side="LEFT" tickLabelGap="5.0" tickLength="5.0" tickUnit="10.0">
+                     <tickLabelFont>
+                        <Font name="Tahoma" size="13.0" />
+                     </tickLabelFont>
+                  </NumberAxis>
+              </yAxis>
+            </BarChart>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="AnchorPane" fx:id="stackedBarChartPane" layoutX="19.0" layoutY="68.0" prefHeight="518.0" prefWidth="990.0" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="68.0">
+         <children>
+            <StackedBarChart fx:id="stackedBarChart" layoutX="14.0" layoutY="2.0" prefHeight="488.0" prefWidth="971.0" title="Total number of error">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" fx:id="xAxisStacked" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="yAxisStacked" side="LEFT" />
+              </yAxis>
+            </StackedBarChart>
+         </children></AnchorPane>
+      <EmojiOneView glyphName="X" layoutX="995.0" layoutY="25.0" onMouseClicked="#btnClose" size="20" styleClass="icon-close" wrappingWidth="14.0" />
+   </children>
+</AnchorPane>
