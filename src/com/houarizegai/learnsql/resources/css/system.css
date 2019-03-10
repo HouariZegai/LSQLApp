@@ -1,0 +1,68 @@
+
+/* Start System Part */
+
+.parent{
+    -fx-background-color: white;    
+}
+
+.sidebar-options{
+    -fx-padding:0 0 0 15px;
+    -fx-cursor: hand;
+    -fx-background-color: #fff
+}
+.sidebar-options:hover{
+    -fx-background-color: #f2f2f2;
+    -fx-border-color: #2196f3;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-border-style: solid;
+}
+
+/* End System Part */
+
+/* Start Home Part */
+
+.title1 {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(two-pass-box, black, 2, 2, 2, 3);
+}
+
+.title2 {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(two-pass-box, black, 2, 2, 2, 3);
+}
+
+.title-date {
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(two-pass-box, black, 2, 2, 2, 3);
+}
+
+.white-pane{
+    -fx-background-color: white;
+}
+.cards{
+    -fx-background-color: #FFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 6, 0, 0, 0);
+    -fx-background-radius: 10
+}
+.cards:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
+    -fx-cursor: hand
+}
+
+.title-smaller {
+    -fx-font-size: 22px;
+    -fx-text-fill: #555
+}
+
+.content-little {
+    -fx-font-size: 18px;
+    -fx-text-fill: #888;
+    -fx-text-alignment: center
+}
+
+/* End Home Part */

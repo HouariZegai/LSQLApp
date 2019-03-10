@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.icons525.Icons525View?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import de.jensd.fx.glyphs.octicons.OctIconView?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="parent" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="690.0" prefWidth="1242.0" style="-fx-alignment: #0F0;" styleClass="parent" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.houarizegai.learnsql.java.controllers.SystemController">
+   <children>
+      <VBox fx:id="sidebar" maxHeight="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="50.0" styleClass="white-pane">
+         <children>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" onMouseClicked="#expandSidebar" prefHeight="50.0" spacing="10.0" styleClass="sidebar-options">
+               <children>
+                  <FontAwesomeIconView glyphName="NAVICON" size="24" />
+               </children>
+            </HBox>
+            <VBox VBox.vgrow="ALWAYS">
+               <children>
+                  <HBox fx:id="boxHome" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#homeClicked" prefHeight="50.0" spacing="15.0" styleClass="sidebar-options">
+                     <children>
+                        <FontAwesomeIconView fx:id="iconHome" fill="#4a4949" glyphName="HOME" size="26" />
+                        <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" text="Home" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Calibri" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="boxCon" alignment="CENTER_LEFT" layoutX="10.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#connectionClicked" prefHeight="50.0" spacing="15.0" styleClass="sidebar-options">
+                     <children>
+                        <Icons525View fx:id="iconCon" fill="#4a4949" glyphName="WIFI" size="24" />
+                        <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" text="Connection DB" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Calibri" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="boxTrac" alignment="CENTER_LEFT" disable="true" layoutX="10.0" layoutY="210.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#traceabilityClicked" prefHeight="50.0" spacing="15.0" styleClass="sidebar-options">
+                     <children>
+                        <OctIconView fx:id="iconTrac" fill="#4a4949" glyphName="GRAPH" size="24" />
+                        <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" text="Traceability" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Calibri" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="boxGrades" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#gradesClicked" prefHeight="50.0" spacing="15.0" styleClass="sidebar-options">
+                     <children>
+                        <OctIconView fx:id="iconGrades" fill="#4a4949" glyphName="TASKLIST" size="24" />
+                        <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" text="Grades" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Calibri" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="boxQuestion" alignment="CENTER_LEFT" disable="true" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#questionClicked" prefHeight="50.0" spacing="15.0" styleClass="sidebar-options">
+                     <children>
+                        <OctIconView fx:id="iconQuestion" fill="#4a4949" glyphName="CLIPPY" size="28" />
+                        <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" text="Manage Question" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Calibri" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="boxAccount" alignment="CENTER_LEFT" disable="true" layoutX="10.0" layoutY="310.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#accountClicked" prefHeight="50.0" spacing="15.0" styleClass="sidebar-options">
+                     <children>
+                        <FontAwesomeIconView fx:id="iconAccount" fill="#4a4949" glyphName="USERS" size="22" />
+                        <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" text="Manage Account" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Calibri" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="boxChat" alignment="CENTER_LEFT" layoutX="10.0" layoutY="235.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#chatClicked" prefHeight="50.0" spacing="15.0" styleClass="sidebar-options">
+                     <children>
+                        <FontAwesomeIconView fx:id="iconChat" fill="#4a4949" glyphName="COMMENTING_ALT" size="25" />
+                        <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" text="Chat" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Calibri" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="boxSettings" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#settingsClicked" prefHeight="50.0" spacing="15.0" styleClass="sidebar-options">
+                     <children>
+                        <Icons525View fx:id="iconSettings" fill="#4a4949" glyphName="WP_COG_O" size="23" />
+                        <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" text="Settings" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Calibri" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#logoutClicked" prefHeight="50.0" spacing="15.0" styleClass="sidebar-options">
+                     <children>
+                        <FontAwesomeIconView fill="#4a4949" glyphName="POWER_OFF" size="24" />
+                        <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" text="Logout" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Calibri" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox fx:id="boxGuide" alignment="CENTER_LEFT" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#guideClicked" spacing="10.0" styleClass="sidebar-options">
+               <children>
+                  <MaterialDesignIconView fx:id="iconGuide" glyphName="TELEVISION_GUIDE" size="25" />
+                  <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="249.0" text=" Guide">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox fx:id="boxAbout" alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#aboutClicked" styleClass="sidebar-options">
+               <children>
+                  <MaterialDesignIconView fx:id="iconAbout" glyphName="INFORMATION_OUTLINE" size="27" />
+                  <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="249.0" text="  About">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <StackPane fx:id="rightPane" prefWidth="1194.0" HBox.hgrow="ALWAYS">
+         <children>
+            <AnchorPane fx:id="holderPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="1186.0" style="-fx-background-color: #FFF;" />
+            <VBox fx:id="homePane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="1186.0" styleClass="white-pane">
+               <children>
+                  <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="323.0" prefWidth="1193.0" style="-fx-background-color: #F2F2F2;" VBox.vgrow="NEVER">
+                     <children>
+                        <Pane fx:id="paneSlider" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="323.0" prefWidth="1193.0" styleClass="header-pane" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <children>
+                              <ImageView fx:id="imgSlider" fitHeight="323.0" fitWidth="1193.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/slider/2.png" />
+                                 </image>
+                              </ImageView>
+                              <VBox prefHeight="323.0" prefWidth="1193.0" spacing="15.0">
+                                 <children>
+                                    <Label styleClass="title1" text="Welcome to LSQL Application">
+                                       <font>
+                                          <Font name="Calibri Light" size="40.0" />
+                                       </font>
+                                    </Label>
+                                    <Label styleClass="title2" text="This Application helps you learn Structure Query Language">
+                                       <font>
+                                          <Font name="Calibri Light" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="dateLabel" prefHeight="62.0" prefWidth="607.0" styleClass="title-date" text=" ">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets left="50.0" top="50.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="200.0" spacing="10.0" styleClass="white-pane" VBox.vgrow="ALWAYS">
+                     <children>
+                        <VBox fx:id="conBox" alignment="TOP_CENTER" layoutX="612.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#connectionClicked" prefHeight="246.0" prefWidth="201.0" styleClass="cards">
+                           <children>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/icons/Folder-big.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="36.0" fitWidth="33.0" layoutX="60.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/icons/tick.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="160.0" styleClass="title-smaller" text="Do the Exercise" wrapText="true">
+                                 <font>
+                                    <Font name="Calibri Light" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="110.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="84.0" prefWidth="172.0" styleClass="content-little" text="You can do the exercise at the time as you like" textFill="#747474" wrapText="true">
+                                 <font>
+                                    <Font name="Calibri Light" size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox fx:id="tracBox" alignment="TOP_CENTER" disable="true" layoutX="382.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#traceabilityClicked" prefHeight="246.0" prefWidth="201.0" styleClass="cards">
+                           <children>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/icons/Heart-big.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="36.0" fitWidth="33.0" layoutX="50.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/icons/tick.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="116.0" styleClass="title-smaller" text="Traceability" wrapText="true">
+                                 <font>
+                                    <Font name="Calibri Light" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="110.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="78.0" prefWidth="155.0" styleClass="content-little" text="Trace student behavior during the work session" textFill="#747474" wrapText="true">
+                                 <font>
+                                    <Font name="Calibri Light" size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox fx:id="manageQuestionBox" alignment="TOP_CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#questionClicked" prefHeight="246.0" prefWidth="201.0" styleClass="cards">
+                           <children>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="85.0" fitWidth="88.0" layoutX="10.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/icons/mange_question.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="36.0" fitWidth="33.0" layoutX="55.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/icons/tick.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="175.0" styleClass="title-smaller" text="Manage Question" wrapText="true">
+                                 <font>
+                                    <Font name="Calibri Light" size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="110.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" styleClass="content-little" text="The teacher can add/detete/update question" textFill="#747474" wrapText="true">
+                                 <font>
+                                    <Font name="Calibri Light" size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox fx:id="manageAccountBox" alignment="TOP_CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#accountClicked" prefHeight="246.0" prefWidth="201.0" styleClass="cards">
+                           <children>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/icons/msn.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="36.0" fitWidth="33.0" layoutX="67.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/icons/tick.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="33.0" prefWidth="166.0" styleClass="title-smaller" text="Manage Account" wrapText="true">
+                                 <font>
+                                    <Font name="Calibri Light" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="110.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="104.0" prefWidth="175.0" styleClass="content-little" text="Change username &amp; password and add/delete/update user account" textFill="#747474" wrapText="true">
+                                 <font>
+                                    <Font name="Calibri Light" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#chatClicked" prefHeight="246.0" prefWidth="201.0" styleClass="cards">
+                           <children>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/icons/chat.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="54.0" styleClass="title-smaller" text="Chat" wrapText="true">
+                                 <font>
+                                    <Font name="Calibri Light" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="110.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="161.0" styleClass="content-little" text="You can Messages" textFill="#747474" wrapText="true">
+                                 <font>
+                                    <Font name="Calibri Light" size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets top="50.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+   </children>
+   <stylesheets>
+      <URL value="@../css/main.css" />
+      <URL value="@../css/system.css" />
+   </stylesheets>
+</HBox>
