@@ -1,0 +1,88 @@
+* {
+    -fx-font-family: "Segoe UI" Arial sans-serif
+}
+
+.root {
+    -fx-background-color: #E9EBEE
+}
+
+.box-select {
+    -fx-background-color: #FFF
+}
+
+.title-header {
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, #2196f3 50%);
+    -fx-font-size: 36px;
+}
+
+.box-option {
+    -fx-padding: 0 0 0 15px;
+    -fx-font-size: 16px
+}
+
+.box-option:hover {
+    -fx-background-color: #F5F8FA;
+    -fx-text-fill: #2196F3;
+    -fx-cursor: hand;
+}
+
+.box-option Label:hover {
+    -fx-text-fill: #2196F3;
+}
+
+.box-right {
+   
+}
+
+.box-right-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 0 15px 
+}
+
+.box-right-title2 {
+    -fx-font-size: 14px;
+    -fx-padding: 0 0 0 15px 
+}
+
+.right-label {
+    -fx-font-size: 17px
+}
+
+.field {
+    -fx-font-size: 18px
+}
+
+.btn {
+    -fx-text-fill: #FFF;
+    -fx-background-color: #4DABF5;
+    -fx-font-size: 18px;
+    -fx-background-radius: 30px;
+    -fx-cursor: hand
+}
+.btn:hover {
+    -fx-background-color: #2196F3;
+    -fx-border-width: 0
+}
+
+.combo-select-language {
+    -fx-font-size: 18px
+}
+
+/* Start Error Part */
+
+.box-error {
+    -fx-background-color: #1DA1F2;
+}
+
+#errorLabel {
+    -fx-text-fill: #FFF;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold
+}
+
+.close-error-icon:hover {
+    -fx-cursor: hand
+}
+
+/* End Error Part */
