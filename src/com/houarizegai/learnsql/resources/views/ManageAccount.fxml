@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="root" alignment="TOP_LEFT" prefHeight="690.0" prefWidth="1192.0" style="-fx-background-color: #FFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.houarizegai.learnsql.java.controllers.ManageAccountController">
+   <children>
+      <VBox prefHeight="750.0" prefWidth="1313.0" spacing="10.0">
+         <children>
+            <HBox prefHeight="60.0" prefWidth="200.0" spacing="15.0">
+               <children>
+                  <Label fx:id="titleLabel" prefHeight="50.0" prefWidth="266.0" styleClass="title-header" text="Manage Account">
+                     <font>
+                        <Font name="Tahoma" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label id="errorLabel" fx:id="errorLabel" prefHeight="50.0" prefWidth="393.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <JFXTextField fx:id="searchField" labelFloat="true" prefHeight="39.0" prefWidth="197.0" promptText="Search" styleClass="field">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <JFXComboBox id="combo" fx:id="combo" labelFloat="true" prefHeight="39.0" prefWidth="175.0" promptText="Search By" styleClass="combo-medium">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </JFXComboBox>
+                  <JFXButton buttonType="RAISED" onAction="#editUser" prefHeight="39.0" prefWidth="130.0" ripplerFill="#4264eb" styleClass="btn-view" text="Edit">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#addUser" prefHeight="39.0" prefWidth="130.0" ripplerFill="#4264eb" styleClass="btn-view" text="Add">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#removeUser" prefHeight="39.0" prefWidth="130.0" ripplerFill="#4468eb" styleClass="btn-view" text="Remove">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onMouseClicked="#updateTable" prefHeight="41.0" prefWidth="59.0" ripplerFill="#4476ff" styleClass="btn-view" text=" ">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="REFRESH" size="24" wrappingWidth="9.571428298950195" />
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <JFXTreeTableView fx:id="treeTableView" fixedCellSize="0.0" prefHeight="496.0" prefWidth="1292.0" />
+         </children>
+         <stylesheets>
+            <URL value="@../css/manageAccount.css" />
+            <URL value="@../css/main.css" />
+         </stylesheets>
+         <StackPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </StackPane.margin>
+      </VBox>
+   </children>
+   <stylesheets>
+      <URL value="@../css/main.css" />
+      <URL value="@../css/manageAccount.css" />
+   </stylesheets>
+</StackPane>
