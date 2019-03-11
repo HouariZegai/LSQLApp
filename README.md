@@ -1,7 +1,10 @@
 # Learn SQL Application - SQL برنامج تعلم لغة الإستعلام
-Desktop application to help teacher in practical work (TP) to evaluate the student.
+Desktop application :computer: to help teacher 👨‍🏫  in practical work (TP) to evaluate the student 👨‍🎓.
 
-## Features
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/HouariZegai/LSQLApp/blob/master/LICENSE)
+
+
+## Features :heavy_check_mark:
 <ul>
   <li>Simple to use</li
   <li>Fast and beautiful design</li>
@@ -10,7 +13,7 @@ Desktop application to help teacher in practical work (TP) to evaluate the stude
   <li>... and more</li>
 </ul>
 
-## Problematic
+## Problematic :worried:
 <ol>
   <li>Lack of tools to establish a student knowledge base.</li>
   <li>Lack of traceability.</li>
@@ -19,7 +22,7 @@ Desktop application to help teacher in practical work (TP) to evaluate the stude
   <li>Problem of manual entry in practical work.</li>
 </ol>
 
-## Objectives
+## Objectives :smiley:
 <ol>
   <li>Gives a portable solution and H24 work to gain this understanding.</li>
   <li>Automate manual stains.</li>
@@ -59,7 +62,7 @@ Desktop application to help teacher in practical work (TP) to evaluate the stude
 <li>Run the application :D</li>
 </ol>
 
-## Outlook for evolution and improvement
+## Outlook for evolution and improvement :bulb:
 <ol>
   <li>Put the multiplatform application (Desktop, Android & Web).</li>
   <li>Deploy the application in online mode.</li>
@@ -72,6 +75,10 @@ Desktop application to help teacher in practical work (TP) to evaluate the stude
 
 ## Screenshots
 
+## Contributing
+If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
+If you find any issue just put it in the repository issue section, thank you.
+
 ## Follow me
 <ul>
   <li><a href="https://www.facebook.com/GeekHouari">Facebook</a></li>
@@ -79,7 +86,5 @@ Desktop application to help teacher in practical work (TP) to evaluate the stude
   <li><a href="https://www.twitter.com/HouariZegai">Twitter</a></li>
   <li><a href="https://www.instagram.com/HouariZegai">Instagram</a></li>
 </ul>
-
-
 
 .سبحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لا إِلهَ إِلأَ انْتَ أَسْتَغْفِرُكَ وَأَتْوبُ إِلَيْكَ
