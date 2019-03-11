@@ -6,7 +6,7 @@ Desktop application :computer: to help teacher 👨‍🏫  in practical work (T
 
 ## Features :heavy_check_mark:
 <ul>
-  <li>Simple to use</li
+  <li>Simple to use</li>
   <li>Fast and beautiful design</li>
   <li>We used material design & UX library to build this application</li>
   <li>We used MVC design pattern</li>
