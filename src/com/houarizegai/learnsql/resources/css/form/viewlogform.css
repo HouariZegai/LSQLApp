@@ -1,0 +1,22 @@
+
+.box-total {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 15, 0, 0, 0);
+    -fx-background-color: #FFF;
+    -fx-background-radius: 10
+}
+
+.box-total-title {
+    -fx-background-color: #0091ea;
+    -fx-text-fill: #000;
+    -fx-text-alignment: center;
+    -fx-font-size: 21px
+}
+
+.box-total-content {
+    -fx-text-fill: #666;
+    -fx-font-size: 24px
+}
+
+.font-normal {
+    -fx-font-size: 18px
+}
