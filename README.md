@@ -77,68 +77,64 @@ Desktop application :computer: to help teacher 👨‍🏫  in practical work (T
 ## Screenshots
 
 ### Login
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/login.PNG" alt="login img"><br/>
+<img src="Screenshots/login.PNG" alt="login img"><br/>
 
 ### Home
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/home.PNG" alt="img home"><br/>
+<img src="Screenshots/home.PNG" alt="img home"><br/>
 
 ### Practical work
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/practical-work/c3.PNG" alt="img connection"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/practical-work/c4.PNG" alt="img "><br>
+<img src="Screenshots/practical-work/c3.PNG" alt="img connection"><br>
+<img src="Screenshots/practical-work/c4.PNG" alt="img "><br>
 
 ### Traceability
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac.PNG" alt="img "><br>
+<img src="Screenshots/traceability/trac.PNG" alt="img "><br>
 ### Traceability > Student
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac2.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac3.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac4.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac5.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac6.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac7.PNG" alt="img "><br>
+<img src="Screenshots/traceability/trac-student/trac2.PNG" alt="img "><br>
+<img src="Screenshots/traceability/trac-student/trac3.PNG" alt="img "><br>
+<img src="Screenshots/traceability/trac-student/trac4.PNG" alt="img "><br>
+<img src="Screenshots/traceability/trac-student/trac5.PNG" alt="img "><br>
+<img src="Screenshots/traceability/trac-student/trac6.PNG" alt="img "><br>
+<img src="Screenshots/traceability/trac-student/trac7.PNG" alt="img "><br>
 ### Traceability > Question
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-question/trac8.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-question/trac9.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-question/trac10.PNG" alt="img "><br>
+<img src="Screenshots/traceability/trac-question/trac8.PNG" alt="img "><br>
+<img src="Screenshots/traceability/trac-question/trac9.PNG" alt="img "><br>
+<img src="Screenshots/traceability/trac-question/trac10.PNG" alt="img "><br>
 
 ### Guide
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/guide.PNG" alt="img guide">
+<img src="Screenshots/guide.PNG" alt="img guide">
 
 ### Manage Question
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-question/q.PNG" alt="img of manage question"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-question/q2.PNG" alt="img of manage question"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-question/q3.PNG" alt="img of manage question"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-question/q4.PNG" alt="img of manage question"><br>
+<img src="Screenshots/manage-question/q.PNG" alt="img of manage question"><br>
+<img src="Screenshots/manage-question/q2.PNG" alt="img of manage question"><br>
+<img src="Screenshots/manage-question/q3.PNG" alt="img of manage question"><br>
+<img src="Screenshots/manage-question/q4.PNG" alt="img of manage question"><br>
 
 ### Manage Account
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-account/a.PNG" alt="img of manage account"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-account/a2.PNG" alt="img of manage account"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-account/a3.PNG" alt="img of manage account"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-account/a4.PNG" alt="img of manage account"><br>
+<img src="Screenshots/manage-account/a.PNG" alt="img of manage account"><br>
+<img src="Screenshots/manage-account/a2.PNG" alt="img of manage account"><br>
+<img src="Screenshots/manage-account/a3.PNG" alt="img of manage account"><br>
+<img src="Screenshots/manage-account/a4.PNG" alt="img of manage account"><br>
 
 ### Settings
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/settings/s.PNG" alt="img of settings"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/settings/s2.PNG" alt="img of settings"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/settings/s3.PNG" alt="img of settings"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/settings/s4.PNG" alt="img of settings"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/settings/s5.PNG" alt="img of settings"><br>
+<img src="Screenshots/settings/s.PNG" alt="img of settings"><br>
+<img src="Screenshots/settings/s2.PNG" alt="img of settings"><br>
+<img src="Screenshots/settings/s3.PNG" alt="img of settings"><br>
+<img src="Screenshots/settings/s4.PNG" alt="img of settings"><br>
+<img src="Screenshots/settings/s5.PNG" alt="img of settings"><br>
 
 ### Chat
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/chat/c.PNG" alt="img of chat"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/chat/c2.PNG" alt="img of chat"><br>
+<img src="Screenshots/chat/c.PNG" alt="img of chat"><br>
+<img src="Screenshots/chat/c2.PNG" alt="img of chat"><br>
 
 ### About
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/about.PNG" alt="about img"><br>
+<img src="Screenshots/about.PNG" alt="about img"><br>
 
 ## Contributing
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
 If you find any issue just put it in the repository issue section, thank you.
 
 ## Follow me
-<ul>
-  <li><a href="https://www.facebook.com/GeekHouari">Facebook</a></li>
-  <li><a href="https://www.youtube.com/HouariZegai">Youtube</a></li>
-  <li><a href="https://www.twitter.com/HouariZegai">Twitter</a></li>
-  <li><a href="https://www.instagram.com/HouariZegai">Instagram</a></li>
-</ul>
+<a href="https://www.facebook.com/GeekHouari">Facebook</a> | <a href="https://www.youtube.com/HouariZegai">Youtube</a> | <a href="https://www.twitter.com/HouariZegai">Twitter</a> | <a href="https://www.instagram.com/HouariZegai">Instagram</a>
+
 
 .سبحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لا إِلهَ إِلأَ انْتَ أَسْتَغْفِرُكَ وَأَتْوبُ إِلَيْكَ
