@@ -84,7 +84,7 @@ Desktop application :computer: to help teacher 👨‍🏫  in practical work (T
 
 ### Practical work
 <img src="Screenshots/practical-work/c3.PNG" alt="img connection"><br>
-<img src="Screenshots/practical-work/c4.PNG" alt="img "><br>
+<img src="Screenshots/practical-work/c6.PNG" alt="img "><br>
 
 ### Traceability
 <img src="Screenshots/traceability/trac.PNG" alt="img "><br>
