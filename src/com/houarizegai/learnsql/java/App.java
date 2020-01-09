@@ -1,4 +1,4 @@
-package com.houarizegai.learnsql.java.main;
+package com.houarizegai.learnsql.java;
 
 import com.houarizegai.learnsql.java.dao.LogDao;
 import com.houarizegai.learnsql.java.models.UserInformation;
@@ -9,7 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class App extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
