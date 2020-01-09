@@ -60,65 +60,64 @@ Desktop application :computer: to help teacher 👨‍🏫  in practical work (T
 ## Screenshots
 
 ### Login
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/login.PNG" alt="login img"><br/>
+![login img](Screenshots/login.PNG)
 
 ### Home
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/home.PNG" alt="img home"><br/>
+![](Screenshots/home.PNG img home"><br/>
 
 ### Practical work
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/practical-work/c3.PNG" alt="img connection"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/practical-work/c4.PNG" alt="img "><br>
+![img connection](Screenshots/practical-work/c3.PNG)
+![screenshot](Screenshots/practical-work/c6.PNG)
 
 ### Traceability
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac.PNG" alt="img "><br>
+![screenshot](Screenshots/traceability/trac.PNG)
 ### Traceability > Student
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac2.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac3.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac4.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac5.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac6.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-student/trac7.PNG" alt="img "><br>
+![screenshot](Screenshots/traceability/trac-student/trac2.PNG)
+![screenshot](Screenshots/traceability/trac-student/trac3.PNG)
+![screenshot](Screenshots/traceability/trac-student/trac4.PNG)
+![screenshot](Screenshots/traceability/trac-student/trac5.PNG)
+![screenshot](Screenshots/traceability/trac-student/trac6.PNG)
+![screenshot](Screenshots/traceability/trac-student/trac7.PNG)
 ### Traceability > Question
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-question/trac8.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-question/trac9.PNG" alt="img "><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/traceability/trac-question/trac10.PNG" alt="img "><br>
+![screenshot](Screenshots/traceability/trac-question/trac8.PNG)
+![screenshot](Screenshots/traceability/trac-question/trac9.PNG)
+![screenshot](Screenshots/traceability/trac-question/trac10.PNG)
 
 ### Guide
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/guide.PNG" alt="img guide">
+![img guide](Screenshots/guide.PNG)
 
 ### Manage Question
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-question/q.PNG" alt="img of manage question"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-question/q2.PNG" alt="img of manage question"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-question/q3.PNG" alt="img of manage question"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-question/q4.PNG" alt="img of manage question"><br>
+![screenshot of manage question](Screenshots/manage-question/q.PNG)
+![screenshot of manage question](Screenshots/manage-question/q2.PNG)
+![screenshot of manage question](Screenshots/manage-question/q3.PNG)
+![screenshot of manage question](Screenshots/manage-question/q4.PNG)
 
 ### Manage Account
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-account/a.PNG" alt="img of manage account"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-account/a2.PNG" alt="img of manage account"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-account/a3.PNG" alt="img of manage account"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/manage-account/a4.PNG" alt="img of manage account"><br>
+![screenshot of manage account](Screenshots/manage-account/a.PNG)
+![screenshot of manage account](Screenshots/manage-account/a2.PNG)
+![screenshot of manage account](Screenshots/manage-account/a3.PNG)
+![screenshot of manage account](Screenshots/manage-account/a4.PNG)
 
 ### Settings
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/settings/s.PNG" alt="img of settings"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/settings/s2.PNG" alt="img of settings"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/settings/s3.PNG" alt="img of settings"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/settings/s4.PNG" alt="img of settings"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/settings/s5.PNG" alt="img of settings"><br>
+![screenshot of settings](Screenshots/settings/s.PNG)
+![screenshot of settings](Screenshots/settings/s2.PNG)
+![screenshot of settings](Screenshots/settings/s3.PNG)
+![screenshot of settings](Screenshots/settings/s4.PNG)
+![screenshot of settings](Screenshots/settings/s5.PNG)
 
 ### Chat
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/chat/c.PNG" alt="img of chat"><br>
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/chat/c2.PNG" alt="img of chat"><br>
+![screenshot of chat](Screenshots/chat/c.PNG)
+![screenshot of chat 2](Screenshots/chat/c2.PNG)
 
 ### About
-<img src="https://github.com/HouariZegai/LSQLApp/blob/master/Screenshots/about.PNG" alt="about img"><br>
+![screenshot about](Screenshots/about.PNG)
 
 ## Contributing
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
 If you find any issue just put it in the repository issue section, thank you.
 
-## Contact me at:
+## Contact me
+* Sites: [LinkedIn](https://www.linkedin.com/in/HouariZegai) | [Twitter](https://www.twitter.com/HouariZegai)
 * Email: houarizegai14@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/HouariZegai)
-* [Twitter](https://www.twitter.com/HouariZegai)
 
 .سبحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لا إِلهَ إِلأَ انْتَ أَسْتَغْفِرُكَ وَأَتْوبُ إِلَيْكَ
