@@ -116,8 +116,4 @@ Desktop application :computer: to help teacher 👨‍🏫  in practical work (T
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
 If you find any issue just put it in the repository issue section, thank you.
 
-## Contact me
-* Sites: [LinkedIn](https://www.linkedin.com/in/HouariZegai) | [Twitter](https://www.twitter.com/HouariZegai)
-* Email: houarizegai14@gmail.com
-
 .سبحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لا إِلهَ إِلأَ انْتَ أَسْتَغْفِرُكَ وَأَتْوبُ إِلَيْكَ
