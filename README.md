@@ -38,7 +38,7 @@ Desktop application :computer: to help teacher 👨‍🏫  in practical work (T
 ## Requirements
 * Java version 8
 * IDE like Intellij IDEA or other
-* MySQL database
+* [MySQL database](https://www.scaler.com/topics/sql/create-database-in-mysql/)
 
 ## How to use the application
 1. Download the repository files (project) from the download section or clone this project by typing in the bash the following command:
