@@ -63,7 +63,7 @@ Desktop application :computer: to help teacher 👨‍🏫  in practical work (T
 ![login img](Screenshots/login.PNG)
 
 ### Home
-![](Screenshots/home.PNG img home"><br/>
+![App home screenshot](Screenshots/home.PNG)
 
 ### Practical work
 ![img connection](Screenshots/practical-work/c3.PNG)
